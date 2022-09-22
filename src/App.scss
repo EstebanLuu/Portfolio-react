@@ -41,7 +41,7 @@
   --mb-0-75: 0.75rem;
   --mb-1: 1rem;
   --mb-1-5: 1.5rem;
-  --mb-2-: 2rem;
+  --mb-2: 2rem;
   --mb-2-5: 2.5rem;
   --mb-3: 2rem;
 
@@ -192,8 +192,15 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-heigth) 0;
+  }
+
   .section {
     padding: 2rem 0 4rem;
+  }
+  .section__subtitle {
+    margin-bottom: var(--mb-3);
   }
 }
 
