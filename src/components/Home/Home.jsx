@@ -192,7 +192,7 @@ const HomeContainer = styled.div`
   @media screen and (max-width: 768px) {
     .home__content {
       grid-template-columns: 0.5fr 3fr;
-      padding-top: 0;
+      padding-top: 3.5rem;
     }
     .home__img {
       order: initial;
@@ -223,6 +223,17 @@ const HomeContainer = styled.div`
     .home__hand {
       width: 15px;
       height: 15px;
+    }
+    .home__data {
+      text-align: center;
+    }
+    .home__subtitle {
+      padding-left: 0;
+      margin-bottom: var(--mb-1);
+      &::before {
+        width: 35px;
+        top: 0.8rem;
+      }
     }
   }
 `;

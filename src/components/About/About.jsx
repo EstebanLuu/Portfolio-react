@@ -113,7 +113,7 @@ const AboutContainer = styled.section`
     .about__description {
       padding: 0;
     }
-  }
+  } 
 
   @media screen and (max-width: 350px) {
     .about__info {
