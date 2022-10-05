@@ -52,7 +52,7 @@ const Data = () => {
       </p>
 
       <a href="#contact" className="button button--flex">
-        Say hello <i class="uil uil-navigator"></i>
+        Say hello <i class="uil uil-navigator "></i>
       </a>
     </div>
   );

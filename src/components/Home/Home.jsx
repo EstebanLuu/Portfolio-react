@@ -98,6 +98,11 @@ const HomeContainer = styled.div`
     animation: profile__animate 8s ease-in-out infinite 1s;
   }
 
+  .button:hover .uil-navigator {
+    transition: 0.5s;
+    transform: translateX(00.3rem);
+  }
+
   @keyframes profile__animate {
     0% {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;

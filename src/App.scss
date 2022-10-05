@@ -110,6 +110,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  transition: 0.3s;
 }
 
 img {
@@ -159,6 +160,7 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: 3s;
   &:hover {
     background-color: var(--title-color-dark);
   }
@@ -171,6 +173,7 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+  transition: 3s;
 }
 
 // BREACK POINTS
