@@ -266,4 +266,49 @@ const ServicesContainer = styled.section`
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
   }
+
+  .services__modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+  }
+
+  .services__modal-title,
+  .services__modal-description {
+    text-align: center;
+  }
+
+  .services__modal-title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+  }
+
+  .services__modal-description {
+    font-size: var(--small-font-size);
+    padding: 0 3.5rem;
+    margin-bottom: var(--mb-2);
+  }
+
+  .services__modal-services {
+    row-gap: 0.75rem;
+  }
+
+  .services__modal-service {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+  }
+
+  .services__modal-icon {
+    color: var(--title-color);
+    font-size: 1.1rem;
+  }
+
+  .services__modal-info {
+    font-size: var(--small-font-size);
+  }
 `;
