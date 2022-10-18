@@ -1,7 +1,13 @@
 import React from "react";
+import { useState } from "react";
 import styled from "styled-components";
 
 const Services = () => {
+  const [toggle, seToggle] = useState(0);
+
+  const toggleTab = (index) => {
+    seToggle(index);
+  };
   return (
     <ServicesContainer className="services section" id="services">
       <h2 className="section__title">Services</h2>
@@ -16,14 +22,21 @@ const Services = () => {
             </h3>
           </div>
 
-          <span className="services__button">
+          <span className="services__button" onClick={() => toggleTab(1)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
-          <div className="services__modal">
+          <div
+            className={
+              toggle == 1 ? "services__modal active-modal" : "services__modal"
+            }
+          >
             <div className="services__modal-content">
-              <i className="uil uil-times services__modal-close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
 
               <h3 className="services__modal-title">Product Designer</h3>
               <p className="services__modal-description">
@@ -77,16 +90,23 @@ const Services = () => {
             </h3>
           </div>
 
-          <span className="services__button">
+          <span className="services__button" onClick={() => toggleTab(2)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
-          <div className="services__modal">
+          <div
+            className={
+              toggle == 2 ? "services__modal active-modal" : "services__modal"
+            }
+          >
             <div className="services__modal-content">
-              <i className="uil uil-times services__modal-close"></i>
+              <i
+                className="uil uil-times services__modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
 
-              <h3 className="services__modal-title"></h3>
+              <h3 className="services__modal-title">UI/UX Designer</h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience. Providing quality
                 work to clients and companies.
@@ -138,14 +158,21 @@ const Services = () => {
             </h3>
           </div>
 
-          <span className="services__button">
+          <span className="services__button" onClick={() => toggleTab(3)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
-          <div className="services__modal">
+          <div
+            className={
+              toggle == 3 ? "services__modal active-modal" : "services__modal"
+            }
+          >
             <div className="services__modal-content">
-              <i className="uil uil-times services__modal-close"></i>
+              <i
+                className="uil uil-times services__modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
 
               <h3 className="services__modal-title">Visual Designer</h3>
               <p className="services__modal-description">
@@ -209,6 +236,12 @@ const ServicesContainer = styled.section`
     bottom: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
     padding: 6rem 0 2rem 2.5rem;
+    transition: 0.5s;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    &:hover {
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
   }
 
   .services__icon {
@@ -254,8 +287,8 @@ const ServicesContainer = styled.section`
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
-    opacity: 1;
-    visibility: visible;
+    opacity: 0;
+    visibility: hidden;
     transition: 0.3s;
   }
 
@@ -310,5 +343,50 @@ const ServicesContainer = styled.section`
 
   .services__modal-info {
     font-size: var(--small-font-size);
+  }
+
+  /* Active modal */
+
+  .active-modal {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  @media screen and (max-width: 992px) {
+    .services__container {
+      grid-template-columns: repeat(3, 218px);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .services__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .services__content {
+      padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+    }
+    .services__icon {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .services__modal-content {
+      padding: 4.5rem 1.5rem 2.5rem;
+    }
+
+    .services__modal-description {
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .services__container {
+      grid-template-columns: max-content;
+    }
+
+    .services__content {
+      padding-right: 6rem;
+    }
   }
 `;
