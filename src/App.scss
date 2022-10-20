@@ -176,6 +176,10 @@ img {
   transition: 3s;
 }
 
+.uil-icon {
+  margin: 3px;
+}
+
 // BREACK POINTS
 
 @media screen and (max-width: 992px) {
@@ -204,6 +208,10 @@ img {
   }
   .section__subtitle {
     margin-bottom: var(--mb-3);
+  }
+
+  .uil-icon {
+    margin: 1px;
   }
 }
 

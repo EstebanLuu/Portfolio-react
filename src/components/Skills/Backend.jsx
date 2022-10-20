@@ -8,7 +8,7 @@ const Backend = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">PostgresSQL</h3>
@@ -17,7 +17,7 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Node</h3>
@@ -26,7 +26,7 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Sequelite</h3>
@@ -37,7 +37,7 @@ const Backend = () => {
 
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Firebase</h3>
@@ -46,7 +46,7 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Sequelize</h3>
@@ -55,7 +55,7 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">MongoDV</h3>

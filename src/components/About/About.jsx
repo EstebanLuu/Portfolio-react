@@ -21,7 +21,7 @@ const About = () => {
           </p>
 
           <a download="" href={CV} className="button button--flex">
-            Download CV <i class="uil uil-file"></i>
+            Download CV <i className="uil uil-file"></i>
           </a>
         </div>
       </div>
