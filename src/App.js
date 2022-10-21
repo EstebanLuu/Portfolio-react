@@ -5,7 +5,10 @@ import About from "./components/About/About.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Services from "./components/Services/Services.jsx";
 import Qualification from "./components/Qualification/Qualification.jsx";
+import Portfolio from "./components/Portfolio/Portfolio.jsx";
 import Contact from "./components/Contact/Contact.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+import Scrollup from "./components/Scrollup/Scrollup.jsx";
 
 function App() {
   return (
@@ -17,8 +20,11 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Portfolio />
         <Contact />
       </main>
+      <Footer />
+      <Scrollup />
     </>
   );
 }
