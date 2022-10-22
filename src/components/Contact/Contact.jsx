@@ -43,7 +43,7 @@ const Contact = () => {
 
   return (
     <ContactContainer className="contact section" id="contact">
-      <h2 className="section__title">Get in touch</h2>
+      <h2 className="section__title">On a minute</h2>
       <span className="section__subtitle">Contact me</span>
 
       <div className="contact__container container grid">
@@ -253,12 +253,21 @@ const ContactContainer = styled.section`
   }
 
   .contact__button {
-    color: var(--title-color);
+    color: var(--main-color);
     font-size: var(--small-font-size);
     transition: 0.3s;
-    &:hover {
-      color: #992121;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+  }
+
+  .button:hover .uil-navigator {
+    transform: translateX(0.3rem);
+  }
+
+  .uil-navigator {
+    transition: 0.3s;
   }
 
   @media screen and (max-width: 992px) {

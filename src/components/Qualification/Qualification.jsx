@@ -50,13 +50,13 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">UAI</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Business management
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2022 - Present
+                  2020 - Present
                 </div>
               </div>
 
@@ -77,36 +77,36 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">Henry</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Bootcamp FullStack
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2022 - Present
+                  2022
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">English</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Argentina - Institute
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2019 - 2021
+                  2015 - 2018
                 </div>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
 
-                <span className="qualification__line"></span>
+                {/* <span className="qualification__line"></span> */}
               </div>
             </div>
-
+            {/* 
             <div className="qualification__data">
               <div></div>
 
@@ -124,7 +124,7 @@ const Qualification = () => {
                   2020 - 2022
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div
@@ -136,9 +136,9 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">FullStack Developer</h3>
                 <span className="qualification__subtitle">
-                  Henry - Bootcamp
+                  Codemmerce - Grupal proyect
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
@@ -163,26 +163,24 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">
-                  business management degree
-                </h3>
-                <span className="qualification__subtitle">3° - UAI</span>
+                <h3 className="qualification__title">Frontend Developer</h3>
+                <span className="qualification__subtitle">CrESI</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2020 - 2022
+                  2022 - 2022
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
+                <h3 className="qualification__title">Frontend Developer</h3>
                 <span className="qualification__subtitle">
-                  Argetnina - Institute
+                  Ecommerce - Grupal proyect
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2019 - 2021
+                  2022 - 2022
                 </div>
               </div>
 
@@ -219,7 +217,7 @@ const QualificationContainer = styled.section`
     transition: 0.3s;
     background-color: transparent;
     &:hover {
-      color: var(--title-color-dark);
+      color: var(--main-color-hover);
     }
   }
 
@@ -230,6 +228,9 @@ const QualificationContainer = styled.section`
 
   .qualification__active {
     color: var(--main-color);
+    &:hover {
+      color: var(--main-color);
+    }
   }
 
   .qualification__sections {
@@ -265,6 +266,10 @@ const QualificationContainer = styled.section`
 
   .qualification__calender {
     font-size: var(--small-font-size);
+  }
+
+  .uil-calendar-alt {
+    padding: 0 2px;
   }
 
   .qualification__rounder {

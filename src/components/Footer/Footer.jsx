@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
 
         <span className="footer__copy">
-          &#169; Luna Nicolás. All rights reserved
+          &#169; Nicolás Luna. All rights reserved
         </span>
       </div>
     </FooterContainer>
@@ -106,7 +106,7 @@ const FooterContainer = styled.div`
     display: inline-flex;
     transition: 0.3s;
     &:hover {
-      background-color: var(--main-color);
+      background-color: var(--main-color-hover);
     }
   }
 

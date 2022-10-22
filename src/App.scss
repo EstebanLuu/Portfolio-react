@@ -12,9 +12,9 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
-  --main-color: #ff1b82;
-  --main-color-hover: #db0867;
-  --main-color-opacity: #ff1b8234;
+  --main-color: #7589b7;
+  --main-color-hover: #4e5972;
+  --main-color-opacity: rgba(196, 144, 47, 0.5);
 
   /* FONTS Y TIPOGRAFIAS */
 
@@ -163,7 +163,7 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
-  transition: 3s;
+  transition: 0.3s;
   &:hover {
     background-color: var(--main-color-hover);
   }
@@ -177,7 +177,7 @@ img {
   display: inline-flex;
   align-items: center;
   transition: 0.3s;
-  background-color: var(--main-color);
+  // background-color: var(--main-color);
 }
 
 .uil-icon {

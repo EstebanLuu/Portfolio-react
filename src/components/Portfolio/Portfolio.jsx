@@ -34,14 +34,14 @@ const PortfolioContainer = styled.section`
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: 0.3s;
     &:hover {
-      background-color: var(--title-color);
+      background-color: var(--main-color);
       color: #fff;
-      opacity: 0.8;
+      opacity: 0.7;
     }
   }
 
   .active-work {
-    background-color: var(--title-color);
+    background-color: var(--main-color);
     color: #fff;
     &:hover {
       opacity: 1;
@@ -74,11 +74,14 @@ const PortfolioContainer = styled.section`
   }
 
   .work__button {
-    color: var(--text-color);
+    color: var(--main-color);
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+    &:hover {
+      color: var(--main-color);
+    }
   }
 
   .work__button-icon {

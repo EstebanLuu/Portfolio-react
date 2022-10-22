@@ -21,6 +21,13 @@
   font-weight: var(--font-medium);
 }
 
+.nav__logo {
+  transition: 0.3s;
+  &:hover {
+    color: var(--main-color);
+  }
+}
+
 .nav__list {
   display: flex;
   column-gap: 2rem;

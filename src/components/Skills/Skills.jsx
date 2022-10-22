@@ -53,6 +53,7 @@ const SkiilsContainer = styled.section`
   .skills__data {
     display: flex;
     column-gap: 0.5rem;
+    position: relative;
   }
 
   .skills .bx-badge-check {
@@ -68,6 +69,11 @@ const SkiilsContainer = styled.section`
 
   .skills__level {
     font-size: var(--tiny-font-size);
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 1px;
+    bottom: -5px;
+    position: absolute;
   }
 
   @media screen and (max-width: 992px) {

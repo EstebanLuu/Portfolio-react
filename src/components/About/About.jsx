@@ -15,9 +15,10 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            My name is Esteban Luna, I am from Argentina. I'm 21 years old. I am
+            a full stack developer very passionate about what I do. I love
+            learning new technologies and languages constantly. I'm currently in
+            the third year of my bachelor's degree in management.
           </p>
 
           <a download="" href={CV} className="botoncito button button--flex">
@@ -42,7 +43,7 @@ const AboutContainer = styled.section`
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
-    border: 2px solid var(--main-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .about__info {
@@ -57,6 +58,7 @@ const AboutContainer = styled.section`
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
+    top: 0;
   }
 
   .about__icon {
@@ -89,10 +91,11 @@ const AboutContainer = styled.section`
 
   @keyframes salto {
     0% {
-      transform: translateY(-5px);
+      transform: translateY(0%);
     }
+
     100% {
-      transform: translatey(0%);
+      transform: translateY(-5px);
     }
   }
 

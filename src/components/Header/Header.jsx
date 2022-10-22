@@ -7,7 +7,7 @@ const Header = () => {
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
     if (this.scrollY >= 80) header.classList.add("scroll-header");
-    else header.classlist.remove("scroll-header");
+    // else header.classlist.remove("scroll-header");
   });
 
   // toggle menu
@@ -21,7 +21,7 @@ const Header = () => {
     <div className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Luna
+          Nicolás Luna
         </a>
         <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">

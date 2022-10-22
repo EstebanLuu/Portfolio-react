@@ -54,7 +54,7 @@ const HomeContainer = styled.div`
   }
 
   .home__title {
-    color: var(--main-color);
+    color: var(--title-color);
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
   }
@@ -96,7 +96,7 @@ const HomeContainer = styled.div`
     justify-self: center;
     width: 300px;
     height: 300px;
-    box-shadow: inset 0 0 0 9px var(--main-color-opacity);
+    box-shadow: inset 0 0 0 9px rgba(0, 0, 0, 0.123);
     animation: profile__animate 8s ease-in-out infinite 1s;
   }
 

@@ -45,14 +45,14 @@ const Data = () => {
           </g>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Visual Desgner</h3>
+      <h3 className="home__subtitle">Full Stack Developer</h3>
       <p className="home__description">
         I´m a creative designer based in Buenos Aires. I'm very passionate and
         dedicated to my work.
       </p>
 
       <a href="#contact" className="button button--flex ">
-        Say hello <i className="uil uil-navigator uil-icon"></i>
+        Contact me <i className="uil uil-navigator uil-icon"></i>
       </a>
     </div>
   );

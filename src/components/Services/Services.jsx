@@ -15,9 +15,9 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i className="uil uil-brackets-curly services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Frontend <br /> Developer
             </h3>
           </div>
 
@@ -37,10 +37,10 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title"> Frontend Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                More than 1 year of experience. Providing quality work with
+                optimized code.
               </p>
 
               <ul className="services__modal-services grid">
@@ -59,21 +59,21 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create UX element interactions.
+                    Styled Components / Sass.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                    Developmnet based on UI/UX design.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Experience with asynchronous request.
                   </p>
                 </li>
               </ul>
@@ -85,7 +85,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              UI/UX <br /> Designer
+              Backend <br /> Developer
             </h3>
           </div>
 
@@ -105,43 +105,38 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="services__modal-title">UI/UX Designer</h3>
+              <h3 className="services__modal-title"> Backend Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                I build and maintain the mechanisms that process data and
+                perform actions on websites.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create UX element interactions.
+                    Assess efficiency and speed.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                    Troubleshoot and debug.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Accessibility and security clearance.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Providing data structure.
                   </p>
                 </li>
               </ul>
@@ -149,7 +144,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="services__content">
+        {/* <div className="services__content">
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
@@ -215,7 +210,7 @@ const Services = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </ServicesContainer>
   );
@@ -225,7 +220,7 @@ export default Services;
 
 const ServicesContainer = styled.section`
   .services__container {
-    grid-template-columns: repeat(3, 270px);
+    grid-template-columns: repeat(2, 270px);
     justify-content: center;
     column-gap: 1.8rem;
   }
@@ -257,7 +252,7 @@ const ServicesContainer = styled.section`
   }
 
   .services__button {
-    color: var(--title-color);
+    color: var(--main-color);
     font-size: var(--small-font-size);
     display: inline-flex;
     align-items: center;
@@ -353,7 +348,7 @@ const ServicesContainer = styled.section`
 
   @media screen and (max-width: 992px) {
     .services__container {
-      grid-template-columns: repeat(3, 218px);
+      grid-template-columns: repeat(2, 218px);
     }
   }
 
