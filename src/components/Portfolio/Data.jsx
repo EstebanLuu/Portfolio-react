@@ -25,7 +25,7 @@ export const projectsData = [
     id: 3,
     image: Work3,
     Title: "E-commerce",
-    Category: "Design",
+    Category: "design",
     Demo: "https://react-ecommerc.netlify.app/",
   },
   {
@@ -70,6 +70,6 @@ export const porjectsNav = [
     name: "app",
   },
   {
-    name: "Design",
+    name: "design",
   },
 ];

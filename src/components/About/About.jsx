@@ -20,7 +20,7 @@ const About = () => {
             projects carried out.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          <a download="" href={CV} className="botoncito button button--flex">
             Download CV <i className="uil uil-file"></i>
           </a>
         </div>
@@ -42,7 +42,7 @@ const AboutContainer = styled.section`
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
-    box-shadow: rgba(27, 34, 46, 0.342) 0px 0px 0px 3px;
+    border: 2px solid var(--main-color);
   }
 
   .about__info {
@@ -79,6 +79,23 @@ const AboutContainer = styled.section`
     margin-bottom: var(--mb-2-5);
   }
 
+  .uil-file {
+    transition: 0.5s;
+  }
+
+  .botoncito:hover .uil-file {
+    animation: salto 0.4s alternate infinite ease-in;
+  }
+
+  @keyframes salto {
+    0% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translatey(0%);
+    }
+  }
+
   @media screen and (max-width: 992px) {
     .about__container {
       grid-template-columns: 1fr;
@@ -113,7 +130,7 @@ const AboutContainer = styled.section`
     .about__description {
       padding: 0;
     }
-  } 
+  }
 
   @media screen and (max-width: 350px) {
     .about__info {

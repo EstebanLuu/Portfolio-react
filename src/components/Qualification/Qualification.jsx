@@ -216,6 +216,8 @@ const QualificationContainer = styled.section`
     color: var(--title-color);
     margin: 0 var(--mb-1);
     cursor: pointer;
+    transition: 0.3s;
+    background-color: transparent;
     &:hover {
       color: var(--title-color-dark);
     }
@@ -227,7 +229,7 @@ const QualificationContainer = styled.section`
   }
 
   .qualification__active {
-    color: var(--title-color-dark);
+    color: var(--main-color);
   }
 
   .qualification__sections {

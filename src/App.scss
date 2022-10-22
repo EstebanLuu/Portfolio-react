@@ -12,6 +12,9 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+  --main-color: #ff1b82;
+  --main-color-hover: #db0867;
+  --main-color-opacity: #ff1b8234;
 
   /* FONTS Y TIPOGRAFIAS */
 
@@ -162,7 +165,7 @@ img {
   font-weight: var(--font-medium);
   transition: 3s;
   &:hover {
-    background-color: var(--title-color-dark);
+    background-color: var(--main-color-hover);
   }
 }
 
@@ -173,7 +176,8 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
-  transition: 3s;
+  transition: 0.3s;
+  background-color: var(--main-color);
 }
 
 .uil-icon {

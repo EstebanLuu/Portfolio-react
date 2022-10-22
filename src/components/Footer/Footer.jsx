@@ -15,14 +15,16 @@ const Footer = () => {
           </li>
 
           <li>
+            <a href="#services" className="footer__link">
+              Services
+            </a>
+          </li>
+
+          <li>
             <a href="#portfolio" className="footer__link">
               Projects
             </a>
           </li>
-
-          {/* <li>
-            <a href="#" className="footer__link"></a>
-          </li> */}
         </ul>
 
         <div className="footer__social">
@@ -70,6 +72,7 @@ const FooterContainer = styled.div`
   .footer__title,
   .footer__link {
     color: var(--title-color);
+    transition: 0.3s;
   }
 
   .footer__title {
@@ -78,7 +81,7 @@ const FooterContainer = styled.div`
   }
 
   .footer__link:hover {
-    color: var(--title-color-dark);
+    color: var(--main-color);
   }
 
   .footer__list {
@@ -101,8 +104,9 @@ const FooterContainer = styled.div`
     padding: 0.4rem;
     border-radius: 0.5rem;
     display: inline-flex;
+    transition: 0.3s;
     &:hover {
-      background-color: var(--title-color-dark);
+      background-color: var(--main-color);
     }
   }
 

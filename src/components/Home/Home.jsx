@@ -47,12 +47,14 @@ const HomeContainer = styled.div`
   .home__social-icon {
     font-size: 1.25rem;
     color: var(--title-color);
+    transition: 0.5s;
     &:hover {
-      color: var(--title-color-dark);
+      color: var(--main-color);
     }
   }
 
   .home__title {
+    color: var(--main-color);
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
   }
@@ -94,13 +96,16 @@ const HomeContainer = styled.div`
     justify-self: center;
     width: 300px;
     height: 300px;
-    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 9px var(--main-color-opacity);
     animation: profile__animate 8s ease-in-out infinite 1s;
   }
 
-  .button:hover .uil-navigator {
+  .uil-navigator {
     transition: 0.5s;
-    transform: translateX(00.3rem);
+  }
+
+  .button:hover .uil-navigator {
+    transform: translateX(0.3rem);
   }
 
   @keyframes profile__animate {
@@ -120,6 +125,7 @@ const HomeContainer = styled.div`
   .uil-mouse-alt {
     font-size: 1.25rem;
     color: var(--title-color);
+    background-color: #fff;
   }
 
   .wheel {
