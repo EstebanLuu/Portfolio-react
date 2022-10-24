@@ -214,6 +214,7 @@ img {
       }
     }
   }
+
   .drtxYt .home__title {
     color: white;
   }
@@ -324,9 +325,18 @@ img {
       color: white;
     }
   }
+
   // SCROLL
   .uil-arrow-up:before {
     color: white;
+  }
+
+  // RESPONSIVE PART
+
+  @media screen and (max-width: 768px) {
+    .drtxYt .home__content {
+      padding-top: 0;
+    }
   }
 
   // PARTE RESPONSIVE MENU
