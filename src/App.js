@@ -9,6 +9,7 @@ import Portfolio from "./components/Portfolio/Portfolio.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Scrollup from "./components/Scrollup/Scrollup.jsx";
+import styled from "styled-components";
 
 function App() {
   return (
@@ -30,3 +31,9 @@ function App() {
 }
 
 export default App;
+
+const Buton = styled.button`
+  height: 100px;
+  width: 100px;
+  background-color: red;
+`;

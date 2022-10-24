@@ -13,13 +13,20 @@ const Header = () => {
   // toggle menu
   const [activeNav, setActiveNav] = useState("#home");
   const [toggle, setToggle] = useState(false);
+  const [theme, setTheme] = useState(false);
+
+  const handleDark = () => {
+    setTheme(!theme);
+  };
 
   const handleClick = () => {
     setToggle(!toggle);
   };
+
   return (
-    <div className="header">
-      <nav className="nav container">
+    <div className={`header ${theme ? "light" : "lightDN"}`}>
+      <button onClick={handleDark}>DARK</button>
+      <nav className={`nav container ${theme ? "dark" : "darkDN"}`}>
         <a href="index.html" className="nav__logo">
           Nicolás Luna
         </a>

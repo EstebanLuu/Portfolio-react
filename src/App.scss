@@ -184,6 +184,27 @@ img {
   margin: 3px;
 }
 
+// THEMES
+
+.dark {
+  background-color: #21293b;
+  a {
+    color: white;
+  }
+  .active-link {
+    color: rgb(134, 131, 131);
+  }
+}
+
+.darkDN {
+  .dark {
+    background-color: transparent;
+    a {
+      color: transparent;
+    }
+  }
+}
+
 // BREACK POINTS
 
 @media screen and (max-width: 992px) {
