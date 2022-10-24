@@ -24,9 +24,8 @@ const Header = () => {
   };
 
   return (
-    <div className={`header ${theme ? "light" : "lightDN"}`}>
-      <button onClick={handleDark}>DARK</button>
-      <nav className={`nav container ${theme ? "dark" : "darkDN"}`}>
+    <div className="header">
+      <nav className="nav container">
         <a href="index.html" className="nav__logo">
           Nicolás Luna
         </a>

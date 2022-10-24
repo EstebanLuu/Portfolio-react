@@ -16,6 +16,12 @@
   --main-color-hover: #4e5972;
   --main-color-opacity: rgba(196, 144, 47, 0.5);
 
+  // Dark Mode
+
+  --main-color-dark: #33373f;
+  --main-color-dark-font-hover: #9aa6c4;
+  --main-color-dark-font: #7992d1;
+
   /* FONTS Y TIPOGRAFIAS */
 
   --body-font: "Poppins", sans-serif;
@@ -184,15 +190,173 @@ img {
   margin: 3px;
 }
 
-// THEMES
+// THEME BLUE MODE
 
 .dark {
-  background-color: #21293b;
-  a {
+  // Home
+
+  background-color: var(--main-color-dark);
+  color: white;
+
+  .header {
+    background-color: var(--main-color-dark);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    a {
+      color: white;
+      &:hover {
+        color: var(--main-color-dark-font-hover);
+      }
+    }
+    .active-link {
+      color: var(--main-color-dark-font);
+      &:hover {
+        color: var(--main-color-dark-font);
+      }
+    }
+  }
+  .drtxYt .home__title {
     color: white;
   }
-  .active-link {
-    color: rgb(134, 131, 131);
+
+  .drtxYt .home__subtitle {
+    color: white;
+  }
+
+  .drtxYt .home__social-icon {
+    color: white;
+  }
+  .drtxYt .home__social-icon:hover {
+    color: var(--main-color-dark-font);
+  }
+
+  .button {
+    background-color: var(--main-color-dark-font);
+    &:hover {
+      background-color: var(--main-color-dark-font-hover);
+    }
+  }
+
+  .drtxYt .home__scroll-name {
+    color: white;
+  }
+
+  .drtxYt .uil-mouse-alt {
+    background-color: var(--main-color-dark);
+  }
+
+  .uil-mouse-alt:before {
+    color: white;
+  }
+
+  // ABOUT
+
+  .section__title,
+  .section__subtitle {
+    color: white;
+  }
+
+  .services__modal-content {
+    background-color: var(--main-color);
+    color: black;
+  }
+
+  .iLgiZX .about__box {
+    color: black;
+  }
+
+  // QUALIFICATION
+
+  .dYGQLd .qualification__button {
+    color: white;
+    &:hover {
+      color: var(--main-color-dark-font-hover);
+    }
+  }
+
+  .dYGQLd .qualification__active {
+    color: var(--main-color-dark-font);
+    &:hover {
+      color: var(--main-color-dark-font);
+    }
+  }
+
+  .dYGQLd .qualification__title {
+    color: var(--main-color-dark-font);
+  }
+
+  // PORTFOLIO
+
+  .kqGSIL .work__item {
+    background-color: black;
+    color: white;
+    &:hover {
+      background-color: var(--main-color-dark-font-hover);
+    }
+  }
+
+  .kqGSIL .active-work {
+    background-color: var(--main-color-dark-font);
+    &:hover {
+      background-color: var(--main-color-dark-font);
+    }
+  }
+
+  // CONTACT
+
+  .inVhAm .contact__title {
+    color: white;
+  }
+
+  .inVhAm .contact__form-tag {
+    background-color: var(--main-color-dark);
+  }
+
+  .footer {
+    background-color: black;
+    color: white;
+    a {
+      color: white;
+    }
+    .footer__title {
+      color: white;
+    }
+    .footer__copy {
+      color: white;
+    }
+  }
+  // SCROLL
+  .uil-arrow-up:before {
+    color: white;
+  }
+
+  // PARTE RESPONSIVE MENU
+
+  .uil-apps:before {
+    color: white;
+  }
+
+  .show-menu {
+    background-color: black;
+  }
+
+  .uil-times:before {
+    color: rgb(207, 197, 197);
+  }
+
+  .gMDsYg .services__modal-content {
+    background-color: var(--main-color-dark);
+    color: white;
+  }
+
+  .gMDsYg .services__modal-title {
+    color: white;
+  }
+
+  .scrollup {
+    background-color: var(--main-color-dark-font);
+    &:hover {
+      background-color: var(--main-color-dark-font-hover);
+    }
   }
 }
 
