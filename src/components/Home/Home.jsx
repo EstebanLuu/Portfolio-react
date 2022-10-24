@@ -203,7 +203,7 @@ const HomeContainer = styled.div`
   @media screen and (max-width: 768px) {
     .home__content {
       grid-template-columns: 0.5fr 3fr;
-      padding-top: 3.5rem;
+      padding-top: 1rem;
     }
     .home__img {
       order: initial;

@@ -43,7 +43,12 @@ const BottonTheme = styled.button`
   }
 
   @media screen and (max-width: 576px) {
-    top: 76px;
+    top: 20px;
+    margin: 20px;
+  }
+
+  @media screen and (max-width: 350px) {
+    top: 20px;
     margin: auto;
   }
 `;

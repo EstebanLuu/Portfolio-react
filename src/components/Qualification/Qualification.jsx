@@ -305,6 +305,11 @@ const QualificationContainer = styled.section`
   @media screen and (max-width: 576px) {
     .qualification__sections {
       grid-template-columns: initial;
+      gap: 10px;
+    }
+
+    .qualification__tabs {
+      gap: 10px;
     }
 
     .qualification__button {
