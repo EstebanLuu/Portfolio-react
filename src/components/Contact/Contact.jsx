@@ -31,14 +31,10 @@ const Contact = () => {
   const AlertaError = () => {
     Swal.fire({
       title: "Error!",
-      text: "Controla que esten todos los datos!",
+      text: "Control the data!",
       icon: "error",
       confirmButtonText: "Ok!",
     });
-  };
-
-  const funcion = () => {
-    return AlertaCorrecta();
   };
 
   return (
