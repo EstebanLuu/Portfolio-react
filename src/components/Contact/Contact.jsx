@@ -146,7 +146,7 @@ const Contact = () => {
 
             <button type="submit" className="button button--flex">
               Send
-              <i className="uil uil-navigator uil-icon "></i>
+              <i className="uil uil-navigator uil-icon"></i>
             </button>
           </form>
         </div>
@@ -256,6 +256,7 @@ const ContactContainer = styled.section`
     align-items: center;
     justify-content: center;
     gap: 1px;
+    transition: 0.4s;
   }
 
   .button:hover .uil-navigator {
@@ -264,6 +265,20 @@ const ContactContainer = styled.section`
 
   .uil-navigator {
     transition: 0.3s;
+  }
+
+  .contact-icon {
+    font-size: 1rem;
+    transition: 0.4s;
+  }
+
+  .contact-button-icon {
+    transition: 0.4s;
+  }
+
+  .contact__button:hover .contact-button-icon {
+    transform: translateX(0.25rem);
+    transition: 0.4s;
   }
 
   @media screen and (max-width: 992px) {

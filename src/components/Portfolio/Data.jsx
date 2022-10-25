@@ -17,9 +17,9 @@ export const projectsData = [
   {
     id: 2,
     image: Work2,
-    Title: "Before Portfolio",
+    Title: "Old Portfolio",
     Category: "web",
-    Demo: "https://portafolio-esteban-luna.netlify.app/",
+    Demo: "https://portafolio-esteban-luna-old.netlify.app/",
   },
   {
     id: 3,

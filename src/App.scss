@@ -18,8 +18,8 @@
 
   // Dark Mode
 
-  --main-color-dark: #33373f;
-  --main-color-dark-font-hover: #9aa6c4;
+  --main-color-dark: #2c2f35;
+  --main-color-dark-font-hover: #5c5e61;
   --main-color-dark-font: #7992d1;
 
   /* FONTS Y TIPOGRAFIAS */
@@ -215,18 +215,18 @@ img {
     }
   }
 
-  .gBtYYk .home__title {
+  .home .home__title {
     color: white;
   }
 
-  .gBtYYk .home__subtitle {
+  .home .home__subtitle {
     color: white;
   }
 
-  .gBtYYk .home__social-icon {
+  .home .home__social-icon {
     color: white;
   }
-  .gBtYYk .home__social-icon:hover {
+  .home .home__social-icon:hover {
     color: var(--main-color-dark-font);
   }
 
@@ -237,11 +237,11 @@ img {
     }
   }
 
-  .gBtYYk .home__scroll-name {
+  .home .home__scroll-name {
     color: white;
   }
 
-  .gBtYYk .uil-mouse-alt {
+  .home .uil-mouse-alt {
     background-color: var(--main-color-dark);
   }
 
@@ -256,45 +256,76 @@ img {
     color: white;
   }
 
-  .services__modal-content {
+  .about .services__modal-content {
     background-color: var(--main-color);
     color: black;
   }
 
-  .iLgiZX .about__box {
+  .about .about__box {
     color: black;
+  }
+
+  // SKILLS
+
+  .skills .skills__content {
+    background-color: var(--main-color-dark-font-hover);
+  }
+
+  .skills .skills__title {
+    color: white;
+  }
+
+  .skills .skills__name {
+    color: rgb(0, 0, 0);
+  }
+
+  // SERVICES
+
+  .services .services__content {
+    background-color: var(--main-color-dark-font-hover);
+    .services__title,
+    .services__icon {
+      color: white;
+    }
+    .services__button {
+      color: black;
+    }
+  }
+
+  .services .services__modal-content {
+    background-color: var(--main-color-dark-font-hover);
   }
 
   // QUALIFICATION
 
-  .dYGQLd .qualification__button {
+  .qualification .qualification__button {
     color: white;
     &:hover {
       color: var(--main-color-dark-font-hover);
     }
   }
 
-  .hAEiaq .qualification__button {
+  .qualification .qualification__button {
     color: white;
     &:hover {
       color: var(--main-color-dark-font-hover);
     }
   }
 
-  .hAEiaq .qualification__active {
+  .qualification .qualification__active {
     color: var(--main-color-dark-font);
     &:hover {
       color: var(--main-color-dark-font);
     }
   }
 
-  .hAEiaq .qualification__title {
+  .qualification .qualification__title {
     color: var(--main-color-dark-font);
   }
 
   // PORTFOLIO
 
-  .kqGSIL .work__item {
+  .work .work__item {
     background-color: black;
     color: white;
     &:hover {
@@ -302,22 +333,45 @@ img {
     }
   }
 
-  .kqGSIL .active-work {
+  .work .active-work {
     background-color: var(--main-color-dark-font);
     &:hover {
       background-color: var(--main-color-dark-font);
     }
   }
+  .work .work__card {
+    background-color: var(--main-color-dark-font-hover);
+  }
+
+  .work .work__button {
+    color: white;
+    &:hover {
+      color: white;
+    }
+  }
 
   // CONTACT
 
-  .inVhAm .contact__title {
+  .contact .contact__title {
     color: white;
   }
 
-  .inVhAm .contact__form-tag {
+  .contact .contact__form-tag {
     background-color: var(--main-color-dark);
   }
+
+  .contact .contact__card {
+    background-color: var(--main-color-dark-font-hover);
+  }
+
+  .contact .contact__button {
+    color: white;
+    &:hover {
+      color: white;
+    }
+  }
+
+  // FOOTER
 
   .footer {
     background-color: black;
@@ -341,7 +395,7 @@ img {
   // RESPONSIVE PART
 
   @media screen and (max-width: 768px) {
-    .drtxYt .home__content {
+    .home .home__content {
       padding-top: 0;
     }
   }
@@ -360,12 +414,7 @@ img {
     color: rgb(207, 197, 197);
   }
 
-  .gMDsYg .services__modal-content {
-    background-color: var(--main-color-dark);
-    color: white;
-  }
-
-  .gMDsYg .services__modal-title {
+  .services .services__modal-title {
     color: white;
   }
 
