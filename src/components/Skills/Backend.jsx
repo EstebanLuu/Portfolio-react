@@ -73,23 +73,19 @@ export default Backend;
 
 const SkillBack = styled.div`
   .bxl-postgresql {
-    background: var(--main-color-dark-font-hover);
     color: #3838b8;
   }
 
   .bxl-nodejs,
   .bxl-mongodb {
-    background: var(--main-color-dark-font-hover);
     color: #3f9c3f;
   }
 
   .bx-badge-check {
     color: #3636ac;
-    background: var(--main-color-dark-font-hover);
   }
 
   .bxl-firebase {
-    background: var(--main-color-dark-font-hover);
     color: orange;
   }
 `;
