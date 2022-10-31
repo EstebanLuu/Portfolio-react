@@ -22,11 +22,16 @@ const BottonTheme = styled.button`
   right: 0;
   top: 80px;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 5px;
   background: transparent;
-  border-radius: 5px;
-  border: 0.5px solid transparent;
-  margin-right: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-right: 30px;
+  width: 30px;
+  height: 30px;
 
   .active {
     display: initial;

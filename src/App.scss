@@ -19,7 +19,7 @@
   // Dark Mode
 
   --main-color-dark: #2c2f35;
-  --main-color-dark-font-hover: #5c5e61;
+  --main-color-dark-font-hover: #9c9c9c;
   --main-color-dark-font: #7992d1;
 
   /* FONTS Y TIPOGRAFIAS */
@@ -197,6 +197,10 @@ img {
 
   background-color: var(--main-color-dark);
   color: white;
+
+  .botton__dark {
+    border: 1px solid rgba(255, 255, 255, 0.233);
+  }
 
   .header {
     background-color: var(--main-color-dark);
