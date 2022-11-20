@@ -15,9 +15,12 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [theme, setTheme] = useState(false);
 
+  // function dark
+  
   const handleDark = () => {
     setTheme(!theme);
   };
+
 
   const handleClick = () => {
     setToggle(!toggle);
