@@ -21,7 +21,11 @@ const About = () => {
             the third year of my bachelor's degree in management.
           </p>
 
-          <a download="" href={CV} className="botoncito button button--flex">
+          <a
+            target="_blank"
+            href={CV}
+            className="botoncito button button--flex"
+          >
             Download CV <i className="uil uil-file"></i>
           </a>
         </div>
