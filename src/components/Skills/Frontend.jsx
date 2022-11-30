@@ -47,10 +47,10 @@ const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bxl-git"></i>
+            <i className="bx bxl-redux"></i>
 
             <div>
-              <h3 className="skills__name">Git</h3>
+              <h3 className="skills__name">Redux</h3>
               <span className="skills__level"></span>
             </div>
           </div>
@@ -88,5 +88,9 @@ const SkillFront = styled.div`
 
   .bxl-vuejs {
     color: #61b656;
+  }
+
+  .bxl-redux {
+    color: #a200ff;
   }
 `;
