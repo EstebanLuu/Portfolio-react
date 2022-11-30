@@ -202,12 +202,14 @@ const HomeContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     .home__content {
-      grid-template-columns: 0.5fr 3fr;
+      grid-template-columns: 0fr 3fr;
+      column-gap: 0;
       padding-top: 1rem;
+      text-align: center;
     }
     .home__img {
       order: initial;
-      justify-self: initial;
+      justify-self: center;
     }
 
     .home__data {
@@ -222,6 +224,12 @@ const HomeContainer = styled.div`
 
     .home__scroll {
       display: none;
+    }
+    .home__subtitle {
+      padding-left: 0;
+      &::before {
+        display: none;
+      }
     }
   }
 
