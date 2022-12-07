@@ -20,7 +20,7 @@ export const projectsData = [
     image: Work8,
     Title: "Henry Shops",
     Category: "team projects",
-    Demo: "henry-pf.vercel.app",
+    Demo: "http://henry-pf.vercel.app",
   },
   {
     id: 2,
