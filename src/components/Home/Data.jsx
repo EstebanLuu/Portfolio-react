@@ -47,7 +47,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Full Stack Developer</h3>
       <p className="home__description">
-        I´m a creative designer based in Buenos Aires. I'm very passionate and
+        I'm a creative designer based in Buenos Aires. I'm very passionate and
         dedicated to my work.
       </p>
 

@@ -11,7 +11,7 @@ const Qualification = () => {
   return (
     <QualificationContainer className="qualification section">
       <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My personar Journey</span>
+      <span className="section__subtitle">My personal Journey</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -50,46 +50,6 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">UAI</h3>
-                <span className="qualification__subtitle">
-                  Business management
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>
-                  2020 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">Henry</h3>
-                <span className="qualification__subtitle">
-                  Bootcamp FullStack
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>
-                  2022
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
                 <h3 className="qualification__title">English</h3>
                 <span className="qualification__subtitle">
                   Argentina - Institute
@@ -103,28 +63,49 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
 
-                {/* <span className="qualification__line"></span> */}
+                <span className="qualification__line"></span>
               </div>
             </div>
-            {/* 
+
             <div className="qualification__data">
               <div></div>
 
               <div>
                 <span className="qualification__rounder"></span>
+
+                <span className="qualification__line"></span>
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
+                <h3 className="qualification__title">UAI</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Business management
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2020 - 2022
+                  2020 - Present
                 </div>
               </div>
-            </div> */}
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Henry</h3>
+                <span className="qualification__subtitle">
+                  Bootcamp FullStack
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>
+                  2022
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+
+                {/* <span className="qualification__line"></span> */}
+              </div>
+            </div>
           </div>
 
           <div
@@ -138,11 +119,11 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">FullStack Developer</h3>
                 <span className="qualification__subtitle">
-                  Codemmerce - Grupal proyect
+                  Codemmerce - Grupal project
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2022 - Present
+                  2022
                 </div>
               </div>
 
@@ -167,7 +148,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">CrESI</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2022 - 2022
+                  2022
                 </div>
               </div>
             </div>
@@ -176,11 +157,11 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Frontend Developer</h3>
                 <span className="qualification__subtitle">
-                  Ecommerce - Grupal proyect
+                  Ecommerce - Grupal project
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2022 - 2022
+                  2022
                 </div>
               </div>
 
