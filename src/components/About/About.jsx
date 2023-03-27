@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import CV from "../../assets/CV2022.pdf";
+import CV from "../../assets/CV2023.pdf";
 import Nicolás from "../../assets/fotoNico.jpeg";
 import Info from "./Info";
 
@@ -18,7 +18,7 @@ const About = () => {
             My name is Esteban Luna, I am from Argentina. I'm 21 years old. I am
             a full stack developer very passionate about what I do. I love
             learning new technologies and languages constantly. I'm currently in
-            the third year of my bachelor's degree in management.
+            the fourth year of my bachelor's degree in management.
           </p>
 
           <a
