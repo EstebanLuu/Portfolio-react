@@ -4,7 +4,7 @@ import CV from "../../assets/CV2023.pdf";
 import Nicolás from "../../assets/fotoNico.jpeg";
 import Info from "./Info";
 
-// 
+// ds
 const About = () => {
   return (
     <AboutContainer className="about section" id="about">
