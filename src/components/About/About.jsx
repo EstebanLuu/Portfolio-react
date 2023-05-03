@@ -16,12 +16,14 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            My name is Esteban Luna, I am from Argentina. I'm 21 years old. I am
-            a full stack developer very passionate about what I do. I love
-            learning new technologies and languages constantly. I'm currently in
-            the fourth year of my bachelor's degree in management.
+            Hi, I'm Esteban Luna, a 21-year-old Full Stack developer from
+            Argentina. I'm passionate about creating innovative technology
+            solutions and constantly seeking to learn new technologies and
+            languages. I specialize in Frontend development. I've also developed
+            on react, which allows me to deliver high-quality projects. If you
+            need a passionate and committed Full Stack developer, don't hesitate
+            to get in touch with me.
           </p>
-
           <a
             target="_blank"
             href={CV}
