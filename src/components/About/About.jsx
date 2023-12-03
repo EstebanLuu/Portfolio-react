@@ -1,21 +1,21 @@
-import React from "react";
-import styled from "styled-components";
-import CV from "../../assets/CV2023.pdf";
-import PersonalImage from "../../assets/personalimage.jpeg"
-import Info from "./Info";
+import React from 'react';
+import styled from 'styled-components';
+import CV from '../../files/CV2023.pdf';
+import PersonalImage from '../../assets/personalimage.jpeg';
+import Info from './Info';
 
 // ds
 const About = () => {
   return (
-    <AboutContainer className="about section" id="about">
-      <h2 className="section__title">About me</h2>
-      <span className="section__subtitle">My introduction</span>
+    <AboutContainer className='about section' id='about'>
+      <h2 className='section__title'>About me</h2>
+      <span className='section__subtitle'>My introduction</span>
 
-      <div className="about__container container grid">
-        <img src={PersonalImage} alt="" className="about__img" />
-        <div className="about__data">
+      <div className='about__container container grid'>
+        <img src={PersonalImage} alt='' className='about__img' />
+        <div className='about__data'>
           <Info />
-          <p className="about__description">
+          <p className='about__description'>
             Hi, I'm Esteban Luna, a 22-year-old Full Stack developer from
             Argentina. I'm passionate about creating innovative technology
             solutions and constantly seeking to learn new technologies and
@@ -25,11 +25,11 @@ const About = () => {
             to get in touch with me.
           </p>
           <a
-            target="_blank"
+            target='_blank'
             href={CV}
-            className="botoncito button button--flex"
+            className='botoncito button button--flex'
           >
-            Download CV <i className="uil uil-file"></i>
+            Download CV <i className='uil uil-file'></i>
           </a>
         </div>
       </div>
