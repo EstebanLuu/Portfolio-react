@@ -13,7 +13,9 @@ const Home = () => {
           <div className='home__content grid'>
             <Social />
 
-            <div className='home__img'></div>
+            <div className='home__img'>
+              <img src={ImgPersonal} alt='' />
+            </div>
 
             <Data />
           </div>
@@ -101,12 +103,18 @@ const HomeContainer = styled.div`
   }
 
   .home__img {
-    background-image: url(${ImgPersonal});
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+    border: 5px solid rgba(0, 0, 0, 0.1);
     order: 1;
     justify-self: center;
+    background-size: cover;
     width: 300px;
     height: 300px;
     box-shadow: inset 0 0 0 9px rgba(0, 0, 0, 0.123);
