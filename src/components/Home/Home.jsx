@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ImgPersonal from '../../assets/fotoNico.jpeg';
+import ImgPersonal from '../../assets/personalimage.jpeg';
 import React from 'react';
 import Social from './Social';
 import Data from './Data';
