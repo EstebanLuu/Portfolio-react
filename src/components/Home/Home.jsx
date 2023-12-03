@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ImgPersonal from '../../assets/personalimage.jpeg';
+import personalimage from '../../assets/personalimage.jpeg';
 import React from 'react';
 import Social from './Social';
 import Data from './Data';
@@ -14,7 +14,7 @@ const Home = () => {
             <Social />
 
             <div className='home__img'>
-              <img src={ImgPersonal} alt='' />
+              <img src={personalimage} alt='' />
             </div>
 
             <Data />
