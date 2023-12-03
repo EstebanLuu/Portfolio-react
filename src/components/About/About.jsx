@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import CV from "../../assets/CV2023.pdf";
-import Nicolás from "../../assets/fotoNico.jpeg";
+import Nicolás from "../../assets/personalimage.jpeg"
 import Info from "./Info";
 
 // ds
