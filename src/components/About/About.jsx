@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import CV from "../../assets/CV2023.pdf";
-import Nicolás from "../../assets/personalimage.jpeg"
+import PersonalImage from "../../assets/personalimage.jpeg"
 import Info from "./Info";
 
 // ds
@@ -12,7 +12,7 @@ const About = () => {
       <span className="section__subtitle">My introduction</span>
 
       <div className="about__container container grid">
-        <img src={Nicolás} alt="" className="about__img" />
+        <img src={PersonalImage} alt="" className="about__img" />
         <div className="about__data">
           <Info />
           <p className="about__description">
