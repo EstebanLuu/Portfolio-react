@@ -101,7 +101,7 @@ const HomeContainer = styled.div`
   }
 
   .home__img {
-    background: url(${ImgPersonal});
+    background-image: url(${ImgPersonal});
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
