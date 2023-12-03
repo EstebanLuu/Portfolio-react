@@ -1,59 +1,59 @@
-import styled from "styled-components";
-import React from "react";
+import styled from 'styled-components';
+import React from 'react';
 
 const Footer = () => {
   return (
-    <FooterContainer className="footer ">
-      <div className="footer__container container">
-        <h1 className="footer__title">Luna</h1>
+    <FooterContainer className='footer '>
+      <div className='footer__container container'>
+        <h1 className='footer__title'>Luna</h1>
 
-        <ul className="footer__list">
+        <ul className='footer__list'>
           <li>
-            <a href="#about" className="footer__link">
+            <a href='#about' className='footer__link'>
               About
             </a>
           </li>
 
           <li>
-            <a href="#services" className="footer__link">
+            <a href='#services' className='footer__link'>
               Services
             </a>
           </li>
 
           <li>
-            <a href="#portfolio" className="footer__link">
+            <a href='#portfolio' className='footer__link'>
               Projects
             </a>
           </li>
         </ul>
 
-        <div className="footer__social">
+        <div className='footer__social'>
           <a
-            href="https://github.com/EstebanLuu"
-            className="footer__social-link "
-            target="_blank"
+            href='https://github.com/EstebanLuu'
+            className='footer__social-link '
+            target='_blank'
           >
-            <i className="uil uil-github"></i>
+            <i className='uil uil-github'></i>
           </a>
 
           <a
-            href="https://www.linkedin.com/in/esteban-nicol%C3%A1s-luna--/"
-            className="footer__social-link "
-            target="_blank"
+            href='https://www.linkedin.com/in/esteban-nicol%C3%A1s-luna--/'
+            className='footer__social-link '
+            target='_blank'
           >
-            <i className="uil uil-linkedin"></i>
+            <i className='uil uil-linkedin'></i>
           </a>
 
           <a
-            href="https://www.linkedin.com/in/esteban-nicol%C3%A1s-luna--/"
-            className="footer__social-link "
-            target="_blank"
+            href='mailto:estebaanlunaaa@gmail.com'
+            className='footer__social-link'
+            target='_blank'
           >
-            <i className="uil uil-envelope"></i>
+            <i className='uil uil-envelope'></i>
           </a>
         </div>
 
-        <span className="footer__copy">
+        <span className='footer__copy'>
           &#169; Nicolás Luna. All rights reserved
         </span>
       </div>

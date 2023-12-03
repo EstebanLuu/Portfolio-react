@@ -1,19 +1,19 @@
-import styled from "styled-components";
-import ImgPersonal from "../../assets/fotoNico.jpeg";
-import React from "react";
-import Social from "./Social";
-import Data from "./Data";
-import ScrollDown from "./ScrollDown";
+import styled from 'styled-components';
+import ImgPersonal from '../../assets/fotoNico.jpeg';
+import React from 'react';
+import Social from './Social';
+import Data from './Data';
+import ScrollDown from './ScrollDown';
 
 const Home = () => {
   return (
     <HomeContainer>
-      <section className="home section" id="home">
-        <div className="home__container container grid">
-          <div className="home__content grid">
+      <section className='home section' id='home'>
+        <div className='home__container container grid'>
+          <div className='home__content grid'>
             <Social />
 
-            <div className="home__img"></div>
+            <div className='home__img'></div>
 
             <Data />
           </div>
@@ -59,10 +59,23 @@ const HomeContainer = styled.div`
     margin-bottom: var(--mb-0-25);
   }
 
+  @keyframes rotateAnimation {
+    33% {
+      transform: rotate(20deg);
+    }
+    66% {
+      transform: rotate(-20deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
   .home__hand {
     width: 38px;
     height: 38px;
     margin-left: 0.4rem;
+    animation: rotateAnimation 3s linear infinite;
   }
 
   .home__subtitle {
@@ -72,7 +85,7 @@ const HomeContainer = styled.div`
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       width: 70px;
       height: 1px;

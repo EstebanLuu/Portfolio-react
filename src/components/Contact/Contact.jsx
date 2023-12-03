@@ -22,7 +22,7 @@ const Contact = () => {
       "service_xgrf4wd",
       "template_taaexjm",
       form.current,
-      "lXAeyoLMc8mPQLFnK"
+      "ErxbMo_HhYIQLC4ov"
     );
     e.target.reset();
     AlertaCorrecta();
@@ -136,7 +136,7 @@ const Contact = () => {
             <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Message</label>
               <textarea
-                name="Message"
+                name="message"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
