@@ -17,7 +17,7 @@ const Qualification = () => {
         <div className="qualification__tabs">
           <div
             className={
-              toggle == 1
+              toggle === 1
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button  button--flex"
             }
@@ -29,7 +29,7 @@ const Qualification = () => {
 
           <div
             className={
-              toggle == 2
+              toggle === 2
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button  button--flex"
             }
@@ -43,7 +43,7 @@ const Qualification = () => {
         <div className="qualification__sections">
           <div
             className={
-              toggle == 1
+              toggle === 1
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
             }
@@ -110,7 +110,7 @@ const Qualification = () => {
 
           <div
             className={
-              toggle == 2
+              toggle === 2
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
             }

@@ -28,7 +28,7 @@ const Services = () => {
 
           <div
             className={
-              toggle == 1 ? "services__modal active-modal" : "services__modal"
+              toggle === 1 ? "services__modal active-modal" : "services__modal"
             }
           >
             <div className="services__modal-content">
@@ -96,7 +96,7 @@ const Services = () => {
 
           <div
             className={
-              toggle == 2 ? "services__modal active-modal" : "services__modal"
+              toggle === 2 ? "services__modal active-modal" : "services__modal"
             }
           >
             <div className="services__modal-content">
