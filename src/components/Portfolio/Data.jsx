@@ -1,11 +1,11 @@
-import Work1 from "../../assets/ProyectosFotos/PAGEDOGS.jpeg";
-import Work2 from "../../assets/ProyectosFotos/BEFOREPORTFOLIO.jpeg";
-import Work3 from "../../assets/ProyectosFotos/ECOMMERCE.jpeg";
-import Work4 from "../../assets/ProyectosFotos/WEATHERAPP.jpeg";
-import Work5 from "../../assets/ProyectosFotos/BUDGETAPP.jpeg";
-import Work6 from "../../assets/ProyectosFotos/MFN-OPTICA.jpeg";
-import Work7 from "../../assets/ProyectosFotos/CrESIProyect.jpeg";
-import Work8 from "../../assets/ProyectosFotos/PF HENRY.jpeg";
+import Work1 from "../../Assets/ProyectosFotos/PAGEDOGS.jpeg";
+import Work2 from "../../Assets/ProyectosFotos/BEFOREPORTFOLIO.jpeg";
+import Work3 from "../../Assets/ProyectosFotos/ECOMMERCE.jpeg";
+import Work4 from "../../Assets/ProyectosFotos/WEATHERAPP.jpeg";
+import Work5 from "../../Assets/ProyectosFotos/BUDGETAPP.jpeg";
+import Work6 from "../../Assets/ProyectosFotos/MFN-OPTICA.jpeg";
+import Work7 from "../../Assets/ProyectosFotos/CrESIProyect.jpeg";
+import Work8 from "../../Assets/ProyectosFotos/PF HENRY.jpeg";
 
 export const projectsData = [
   {

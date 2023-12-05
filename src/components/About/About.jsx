@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import CV from '../../files/CV2023.pdf';
-import PersonalImage from '../../assets/personalimage.jpeg';
+import PersonalImage from '../../Assets/personalimage.jpeg';
 import Info from './Info';
 
-// ds
+
 const About = () => {
   return (
     <AboutContainer className='about section' id='about'>
