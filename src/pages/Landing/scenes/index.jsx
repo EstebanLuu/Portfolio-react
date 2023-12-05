@@ -1,15 +1,11 @@
-import React, { useRef, useEffect } from 'react';
-import { useFrame } from '@react-three/fiber';
 import {
-  Environment,
-  GizmoHelper,
-  GizmoViewport,
   OrbitControls,
-  Stars,
+  Stars
 } from '@react-three/drei';
-import { TextureLoader, DirectionalLight } from 'three'; // Import DirectionalLight from three
+import { useFrame, useLoader } from '@react-three/fiber';
+import React, { useEffect, useRef } from 'react';
+import { TextureLoader } from 'three'; // Import DirectionalLight from three
 import Textura from '../models/textures/Material__50_baseColor.jpeg';
-import { useLoader } from '@react-three/fiber';
 
 const Scenes = () => {
   const mesh = useRef();
@@ -30,7 +26,6 @@ const Scenes = () => {
   return (
     <>
       <OrbitControls />
-      {/* <Environment preset='night' /> */}
       <ambientLight intensity={0.2} />
 
       {/* Use DirectionalLight from three */}
